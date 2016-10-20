@@ -27,6 +27,10 @@ Clustering procedure to identify significant SNPs associated with a binary pheno
       1. output from the previous step (work.dir/full-summary/)
       2. p-values for the significances of associations between PCs&SNPs and phenotype&SNPs; suggested: 0.05/6 and 0.05 respectively
      * Output: work.dir/full-summary-yes-no/ -> .txt files for each SNP with columns: Clusters,PC1.PC6.signif,SNP.signif: yes/no independence/significance association
+6. Create the result file with the following columns: SNP, Clusters, Betta, SE, P.value
+     * Required:
+       1. output from the previous steps: work.dir/full-summary-yes-no/ and work.dir/full-summary/
+     * Output: summary_yes_no.csv -> a file with all the SNPs - clusters combinations that are independent of PCs & significantly associated with the phenotype.
       
       
       
