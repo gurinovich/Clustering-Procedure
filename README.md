@@ -21,7 +21,7 @@ Clustering procedure to identify significant SNPs associated with a binary pheno
       2. .csv file with columns: phenotype, ID, Family, Sex, SNP-dosages
       3. .txt file with the list of SNPs to investigate
     * Output:
-      1. work.dir/full-summary/ -> .txt files for each HLA-type with columns: Clusters,PC1.b,PC1.p,PC2.b,PC2.p,PC3.b,PC3.p,PC4.b,PC4.p,PC5.b,PC5.p,PC6.b,PC6.p,GLM.b,GLM.p,GLM.SE
+      1. work.dir/full-summary/ -> .txt files for each SNP with columns: Clusters,PC1.b,PC1.p,PC2.b,PC2.p,PC3.b,PC3.p,PC4.b,PC4.p,PC5.b,PC5.p,PC6.b,PC6.p,GLM.b,GLM.p,GLM.SE
       
       
 [1]: http://csg.sph.umich.edu/abecasis/Merlin/tour/ibd.html "Title"
